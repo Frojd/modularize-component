@@ -43,7 +43,6 @@ if (!(cssFile && jsFile && componentName)) {
 
 maybeRenameCssFile();
 updateJSFile();
-console.log("Done!")
 
 
 function maybeRenameCssFile() {
