@@ -1,0 +1,21 @@
+{
+  "name": "modularize-component",
+  "description": "Transform BEM-components to css-in-js-modules",
+  "version": "1.0.0",
+  "author": "Mikael Engströr",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^16.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frojd/modularize-component.git"
+  },
+  "main": "./bin/main.js",
+  "bin": {
+    "modularize-component": "./bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
