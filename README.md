@@ -36,7 +36,7 @@ modularize-component -c ./frontend/Article/
 
 Transform all components in folder `components`:
 ```bash
-find components -type d -depth 1 | xargs modularize-component -c
+find components -type d -depth 1 | xargs -L1 modularize-component -c
 ```
 
 

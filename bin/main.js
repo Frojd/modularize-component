@@ -119,7 +119,7 @@ function maybeChangeJsx(line) {
 
         const needBrackets = !!line.match(RegExp("=+" + componentString))
 
-        let replacement = componentString.split(' ').map((string) => `styles[${string}]`).join(' + " " + ')
+        let replacement = componentString.replace(/["']/g, '').split(' ').map((string) => `styles["${string}"]`).join(' + " " + ')
 
         if (isObjectKey) {
             replacement = `[${replacement}]`

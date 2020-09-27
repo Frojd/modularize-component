@@ -22,7 +22,7 @@ const Article = ({ headline, author, quote, card, imageRight, href }) => {
             )}
 
             <div
-                className={classNames('Article__TextContainer', {
+                className={classNames('Article__TextContainer Article__TextContainer--Test', {
                     'Article__TextContainer--ImageRight': imageRight,
                 })}>
                 {headline && (
@@ -32,7 +32,7 @@ const Article = ({ headline, author, quote, card, imageRight, href }) => {
                 )}
 
                 {author && (
-                    <section className="Article__BylineContainer">
+                    <section className="Article__BylineContainer Article__BylineContainer--Lab">
                         <Byline image={author.image} size="small" author={author} bylineColor="dark" />
                     </section>
                 )}
