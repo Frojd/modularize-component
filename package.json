@@ -2,7 +2,7 @@
   "name": "modularize-component",
   "description": "Transform BEM-components to css-in-js-modules",
   "version": "1.0.0",
-  "author": "Mikael Engströr",
+  "author": "Mikael Engström",
   "license": "MIT",
   "dependencies": {
     "yargs": "^16.0.3"
